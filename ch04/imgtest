@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+<head>
+	<title>img test</title>
+</head>
+
+<body>
+	<img src="pdf.pdf">
+</body>
+</html>
+
