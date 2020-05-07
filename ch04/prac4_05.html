@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+	<head>
+	<title>웹 폼 연습</title>
+	</head>
+<body>
+	<form action="" method="post">
+		<fieldset>
+			<legend>개인정보 입력</legend>
+			<ol>
+				<li>
+				<label for="name">이름</label>
+				<input id="name" type="text" placeholder="8자미만 공백없이" required>
+				</li>
+				<li>
+				<label for="mail">메일주소</label>
+				<input id="email" type="email"
+				placeholder="example@example.com" required autocomplete="on">
+				</li>
+				<li>
+				<label for="phone">전화번호</label>
+				<input id=phone type="tel"
+				placeholder="02)1111-1111" required autocomplete="off">
+				</li>
+			</ol>
+		</fieldset>
+		<fieldset>
+			<button type="submit">구매하기</button>
+		</fieldset>
+	</form>
+</body>
+</html>
